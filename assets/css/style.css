@@ -1,0 +1,71 @@
+body {
+    padding-top: 50px;
+    /* background-color: #f8f9fa; */
+    background: linear-gradient(to right, #f2f5f8, #05dffc7f);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: hsl(211, 100%, 35%) !important;
+}
+/* Target the logo specifically */
+.nav-logo {
+    height: 60px;       /* Increased from standard size */
+    width: auto;        /* Keeps proportions perfect */
+    display: block;
+    margin-top: -10px;  /* Moves logo up to center it visually in the blue bar */
+    margin-bottom: -10px; 
+    filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.2)); /* Optional: adds a tiny pop */
+}
+
+/* Adjust the navbar brand padding to accommodate the larger image */
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Ensure the navbar itself expands to fit the bigger logo */
+.navbar-custom {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+
+.card {
+    transition: transform 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.card-img-top {
+    width: 100%;
+    height: 200px;      /* set fixed height */
+    object-fit: cover;  /* crop image to fit */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-primary {
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+/* AboutMe page */
+.gradient-text {
+    background: linear-gradient(to right, #5fffa4, #e86907, #ef0303, #00c6ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Index page 
+small card
+*/
+.bg-col{
+    background-color: #fbfbfb;
+}
+
+
